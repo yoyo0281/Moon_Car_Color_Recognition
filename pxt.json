@@ -1,0 +1,22 @@
+{
+    "name": "登月小車-顏色辨識",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "mooncar": "github:icshopmgr/mooncar#01c332d1866a41b8bb0ba00a446e321cb1f6c88b"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
