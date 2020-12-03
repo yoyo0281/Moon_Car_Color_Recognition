@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "mooncar": "github:icshopmgr/mooncar#01c332d1866a41b8bb0ba00a446e321cb1f6c88b"
+        "mooncar": "github:icshopmgr/mooncar#01c332d1866a41b8bb0ba00a446e321cb1f6c88b",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
     },
     "files": [
         "main.blocks",

@@ -15,6 +15,11 @@ input.onButtonPressed(Button.B, function () {
 let strip = neopixel.create(DigitalPin.P12, 8, NeoPixelMode.RGB)
 mooncar.ColorSensorinit()
 basic.forever(function () {
+    basic.showNumber(sonar.ping(
+    DigitalPin.P3,
+    DigitalPin.P9,
+    PingUnit.Centimeters
+    ))
     mooncar.ColorSensorReadColor()
     if (mooncar.ReadColorEqual(mooncar.ColorPart.Red)) {
         strip.showColor(neopixel.colors(NeoPixelColors.Red))
